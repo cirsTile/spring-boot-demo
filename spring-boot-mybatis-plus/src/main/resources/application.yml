@@ -1,0 +1,12 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://172.23.156.10:3305/school?useUnicode=true&characterEncoding=UTF-8&useSSL=false&allowPublicKeyRetrieval=true&autoReconnect=true&failOverReadOnly=false&serverTimezone=GMT%2B8
+    username: root
+    password: 123456
+    hikari:
+      idle-timeout: 60000
+      maximum-pool-size: 15
+      minimum-idle: 10
+      max-lifetime: 12
+      connection-test-query: SELECT 1

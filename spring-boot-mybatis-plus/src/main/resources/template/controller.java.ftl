@@ -25,9 +25,9 @@ import org.springframework.stereotype.Controller;
 * @version v1.0
 */
 <#if restControllerStyle>
-    @RestController
+@RestController
 <#else>
-    @Controller
+@Controller
 </#if>
 @RequestMapping("<#if package.ModuleName??>/${package.ModuleName}</#if>/api/v1/<#if controllerMappingHyphenStyle??>${controllerMappingHyphen}<#else>${table.entityPath}</#if>")
 <#if kotlin>

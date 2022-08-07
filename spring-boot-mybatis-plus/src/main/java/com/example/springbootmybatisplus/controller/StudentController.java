@@ -17,7 +17,7 @@ import org.springframework.web.bind.annotation.RestController;
 * @since 2022-08-07
 * @version v1.0
 */
-    @RestController
+@RestController
 @RequestMapping("/springbootmybatisplus/api/v1/student")
 public class StudentController {
 

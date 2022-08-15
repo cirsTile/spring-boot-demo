@@ -128,7 +128,7 @@ public class MybatisPlusGenerator {
 
             @Override
             public String outputFile(TableInfo tableInfo) {
-                return projectPath + "\\spring-boot-mybatis-plus\\src\\main\\resources\\mapper\\"
+                return projectPath + "\\spring-boot-mybatis-plus\\src\\main\\resources\\com\\example\\springbootmybatisplus\\mapper\\"
                         + tableInfo.getEntityName() + "Mapper" + StringPool.DOT_XML;
             }
         });

@@ -13,7 +13,7 @@ import lombok.experimental.Accessors;
  * </p>
  *
  * @author PanYi
- * @since 2022-08-15
+ * @since 2022-08-26
  */
 @Data
 @EqualsAndHashCode(callSuper = false)
@@ -35,7 +35,7 @@ public class Student implements Serializable {
     /**
      * 学生年龄
      */
-    private String studentAge;
+    private Integer studentAge;
 
 
 }
